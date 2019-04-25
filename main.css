@@ -1,0 +1,48 @@
+/* Styling the h1 */
+
+h1 {
+  color: Black;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* Styling the Images */
+
+img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+}
+
+#myBackground{
+  margin: 0;
+	position: fixed;
+	z-index: -1;
+	opacity: 0.8;
+}
+
+/* Styling the Search bar */
+
+input {
+  width: 150%;
+  color: black;
+  box-sizing: border-box;
+  -webkit-transition: width 1s ease-in-out;
+  transition: width 1s ease-in-out;
+
+}
+
+input[type=text]:focus {
+  width: 400%;
+  border-color: black;
+}
+
+
+.formSubscribe input{
+	width: 80%;
+  margin-left: 10%;
+}
+
+.formSubscribe input[type=text]:focus {
+  width: 80%;
+}

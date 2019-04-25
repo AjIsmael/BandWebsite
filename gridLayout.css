@@ -1,0 +1,25 @@
+.column {
+  float: left;
+  width: 33.33%;
+}
+.columnTwoLayout {
+  float: left;
+  width: 40%;
+
+}
+
+.row {
+	  margin: auto;
+	  width: 80%;
+}
+
+.rowsubscribe {
+	  margin: auto;
+	  width: 80%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
